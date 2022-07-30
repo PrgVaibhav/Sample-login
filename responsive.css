@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+  .login-form {
+    width: 90%;
+    margin: 3.5rem auto;
+  }
+  .google,
+  .apple {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+    width: 90%;
+  }
+
+  .g-img,
+  .a-img {
+    width: 15px;
+  }
+  .or {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .or .left-line {
+    width: 55%;
+    margin-left: 2rem;
+  }
+  .or .right-line {
+    width: 55%;
+    margin-right: 2rem;
+  }
+
+  .text-area input {
+    width: 90%;
+  }
+
+  .btn {
+    width: 90%;
+  }
+
+  .forgot {
+    font-size: 0.7rem;
+  }
+} ;
